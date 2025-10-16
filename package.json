@@ -6,8 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "postinstall": "tailwindcss -i ./app/(site)/styles/globals.css -o ./public/tw.css || true"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "14.2.4",
