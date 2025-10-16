@@ -1,7 +1,7 @@
 "use client";
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
-export default function Page() {
+export const fetchCache = "force-no-store";
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
       {/* Top Bar */}
