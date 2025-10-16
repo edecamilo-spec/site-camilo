@@ -1,3 +1,6 @@
+export const dynamic = "force-dynamic";
+export const revalidate = 0;
+export const fetchCache = "force-no-store";
 export const metadata = {
   title: "Edemilson Camilo — Créditos & Investimentos",
   description: "Consórcio como investimento para construir patrimônio — Ademicon Palhoça.",
