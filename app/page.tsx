@@ -1,8 +1,12 @@
-"use client";
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
 export const fetchCache = "force-no-store";
-  return (
+
+import Home from "./home-client";
+
+export default function Page() {
+  return <Home />;
+}
     <div className="min-h-screen bg-gray-50 text-gray-900">
       {/* Top Bar */}
       <header className="sticky top-0 z-50 bg-white/80 backdrop-blur border-b border-gray-200">
